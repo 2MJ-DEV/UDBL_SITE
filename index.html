@@ -1,453 +1,341 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>UDBL - SITE</title>
+		<link rel="stylesheet" href="assets/css/styles.css" />
+	</head>
+	<body>
+		<header class="header">
+			<!-- navigation bar -->
+			<nav class="navigation-bar">
+				<div class="container">
+					<div class="menu-bar">
+						<!-- Logo -->
+						<div class="logo">
+							<img id="logo" src="assets/Imgs/UDBL-LOGO.jpeg" alt="Logo UDBL" />
+						</div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESIS - SALAMA</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
+						<!-- Desktop Menu -->
+						<div class="desktop-menu">
+							<ul>
+								<li><a href="#" class="navigation-link">Home</a></li>
+								<li><a href="#" class="navigation-link">About</a></li>
+								<li><a href="#" class="navigation-link">Contact</a></li>
+							</ul>
+						</div>
 
-<body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="assets/Imgs/UDBL-LOGO.jpeg" alt="Salama-logo" loading="lazy">
-        </div>
-        <ul class="nav-links">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">À propos de</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+						<!-- Burger Menu -->
+						<button id="menu-button" class="mobile-menu-button">
+							<svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                              </svg>
+                              
+						</button>
+					</div>
 
-    <!-- ___________________________________ Hero-Section ________________________________________ -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Université Don-Bosco de Lubumbashi</h1>
-            <p>École Supérieure d'Informatique et de Statistique</p>
-            <a href="#" class="cta">A PROPOS D'UDBL</a>
-        </div>
-    </section>
-    <!-- ___________________________________ Fin Hero-Section ________________________________________ -->
+					<!-- Mobile Menu (Hidden by default) -->
+					<div id="mobile-menu" class="mobile-menu">
+						<div class="mobile-menu-content">
+							<a href="#" class="navigation-link">Home</a>
+							<a href="#" class="navigation-link">About</a>
+							<a href="#" class="navigation-link">Contact</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<!-- Hero section -->
+			<section class="hero-section">
+				<div class="hero-overlay">
+					<div class="container">
+						<div class="hero-container">
+							<div class="hero-content">
+								<h1>Université Don Bosco de Lubumbashi</h1>
+								<p>
+									Découvrez notre université renommée pour son excellence
+									académique et son environnement convivial.
+								</p>
+								<button class="btn cta-button">A propos d'udbl</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-    <!-- ___________________________________ About-Section ________________________________________ -->
-    <section class="about">
-        <div class="section-about">
-            <div class="title">
-                <h1>A Propos</h1>
-            </div>
-            <div class="carousel-container">
-                <!-- <button class="prev">&#10094;</button> -->
-                <!-- <ion-icon name="chevron-back-outline"></ion-icon> -->
-                <div class="grid-card">
-                    <div class="imgs">
-                        <ion-icon name="megaphone-outline"></ion-icon>
-                    </div>
-                    <div class="carousel">
-                        <div class="text">
-                            <h4>Accueil</h4>
-                            <p>Accueil de l'École Supérieure d'Informatique et de Statistique</p>
-                        </div>
-                        <div class="btn">
-                            <a href="#">Lire plus</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-card">
-                    <div class="imgs">
-                        <ion-icon name="prism-outline"></ion-icon>
-                    </div>
-                    <div class="carousel">
-                        <div class="text">
-                            <h4>Accueil</h4>
-                            <p>Accueil de l'École Supérieure d'Informatique et de Statistique</p>
-                        </div>
-                        <div class="btn">
-                            <a href="#">Lire plus</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-card">
-                    <div class="imgs">
-                        <ion-icon name="analytics-outline"></ion-icon>
-                    </div>
-                    <div class="carousel">
-                        <div class="text">
-                            <h4>Accueil</h4>
-                            <p>Accueil de l'École Supérieure d'Informatique et de Statistique</p>
-                        </div>
-                        <div class="btn">
-                            <a href="#">Lire plus</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <ion-icon name="chevron-forward-outline"></ion-icon> -->
-                <!-- <button class="next">&#10095;</button> -->
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- ___________________________________ Fin About-Section ________________________________________ -->
+			<!-- About section -->
+			<section class="about-section">
+				<div class="container">
+					<div>
+						<div class="section-header">
+							<h2 class="section-title">A propos</h2>
+						</div>
+						<div class="card-container">
+							<div class="about-card">
+								<img
+									class="card-icon"
+									src="./images/"
+									alt=""
+									srcset="" />
+								<h3>Accueil</h3>
+								<p>
+									Découvrez notre université renommée pour son excellence
+									académique et ses installations modernes.
+								</p>
+								<div class="card-link">
+									<a href="#">Lire plus</a>
+								</div>
+							</div>
+							<div class="about-card">
+								<img
+									class="card-icon"
+									src="./images/"
+									alt=""
+									srcset="" />
+								<h3>Facultés</h3>
+								<p>
+									Explorez nos programmes d'études variés conçus pour préparer
+									les étudiants au succès professionnel.
+								</p>
+								<div class="card-link">
+									<a href="#">Lire plus</a>
+								</div>
+							</div>
+							<div class="about-card">
+								<img
+									class="card-icon"
+									src="./images/"
+									alt=""
+									srcset="" />
+								<h3>Programmes</h3>
+								<p>
+									Notre corps professoral expérimenté et dévoué guide les
+									étudiants vers l’excellence académique et personnelle.
+								</p>
+								<div class="card-link">
+									<a href="#">Lire plus</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Facultes -->
+			<section class="facultes-section">
+				<div class="container">
+					<div class="fac-content">
+						<!-- facultes head -->
+						<div class="fac-head">
+							<div class="fac-container">
+								<div class="fact-left">
+									<div class="faclt-img-container">
+										<img src="./assets/Imgs/freepik__adjust__25970.png" alt="" srcset="" />
+									</div>
+									<div class="fact-details mt-50">
+										<h3>Accueil</h3>
+										<p>
+											Bienvenue sur le site de l'université Don Bosco de
+											Lubumbashi. Découvrez notre histoire, nos programmesa
+											cadémiques et nos installations modernes au cœur de la
+											ville.
+										</p>
+										<div class="mt-50">
+											<a class="btn btn-link" href="#">Lire plus</a>
+										</div>
+									</div>
+								</div>
+								<div class="fac-right">
+									<div class="section-header title-left mb-40">
+										<h2 class="section-title">Facultes</h2>
+									</div>
+									<div class="faclt-img-container margin-t">
+										<img src="./assets/Imgs/44.png" alt="" srcset="" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Facultes bottom -->
+						<div class="fac-bottom margin-t">
+							<div class="fac-card">
+								<h3>Vie étudiante</h3>
+								<p>
+									Découvrez notre université renommée pour son excellence
+									académique et ses installations modernes
+								</p>
+								<div class="fac-link">
+									<a href="#">Lire plus</a>
+								</div>
+							</div>
+							<div class="fac-card">
+								<h3>Contact</h3>
+								<p>
+									Explorez nos programmes d'études variés conçus pour préparer
+									les étudiants au succès professionnel
+								</p>
+								<div class="fac-link">
+									<a href="#">Lire plus</a>
+								</div>
+							</div>
+							<div class="fac-card">
+								<h3>Actualités</h3>
+								<p>
+									Notre corps professoral expérimenté etdévoué guide les
+									étudiants vers l'excellence académique et personnelle.
+								</p>
+								<div class="fac-link">
+									<a href="#">Lire plus</a>
+								</div>
+							</div>
+							<div class="fac-card">
+								<h3>FAQ</h3>
+								<p>
+									Plongez dans un environnement d'apprentissage dynamique qui
+									encourage la créativité, l'innovation et l'engagement.
+								</p>
+								<div class="fac-link">
+									<a href="#">Lire plus</a>
+								</div>
+							</div>
+							<div class="fac-card">
+								<h3>Accueil</h3>
+								<p>
+									Notre campus accueillant offre un cadre idéal pour étudier, se
+									connecter et s’épanouir pleinement.
+								</p>
+								<div class="fac-link">
+									<a href="#">Lire plus</a>
+								</div>
+							</div>
+							<div class="fac-card">
+								<h3>Facultés</h3>
+								<p>
+									Rejoignez-nous pour une expérience éducative enrichissante qui
+									ouvre les portes vers un avenir prometteur
+								</p>
+								<div class="fac-link">
+									<a href="#">Lire plus</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- programmes -->
+			<section class="programmes-section">
+				<div class="container">
+					<div class="section-header title-left border-b-2 pb-20">
+						<h2 class="section-title">Programmes</h2>
+					</div>
+					<div class="programmes-container">
+						<div class="programmes-content">
+							<div class="programme">
+								<div class="programme-num">
+									<p>01</p>
+								</div>
+								<div class="programme-desc">
+									<p>
+										Bienvenue sur notre site simple de présentation d'une
+										université. Découvrez notre histoire, nos programmes
+										académiques et nos installations modernes au cœur de la
+										ville.
+									</p>
+								</div>
+							</div>
+							<div class="programme">
+								<div class="programme-num-blue">
+									<p>02</p>
+								</div>
+								<div class="programme-desc">
+									<p>
+										Explorez les différents départements et facultés qui offrent
+										une éducation de qualité. Rencontrez notre corps professoral
+										dévoué etnos étudiants talentueux. Rejoignez notre
+										communauté académique diversifiée.
+									</p>
+								</div>
+							</div>
+							<div class="programme">
+								<div class="programme-num">
+									<p>03</p>
+								</div>
+								<div class="programme-desc">
+									<p>
+										Trouvez toutes les informations nécessaires sur les
+										admissions, les événements à venir et la vie étudiante
+										dynamique. Venez découvrir tout ce que notre université a à
+										offrir. Bienvenue!
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Galery Section -->
+			<section class="galery-section bg-gray">
+				<div class="container">
+					<div class="gallery-container">
+						<div class="gal-img-container">
+							<img src=".//assets/Imgs/freepik__adjust__25970.png" alt="" srcset="" />
+						</div>
+						<div class="gal-img-container">
+							<div class="gal-etudiant">
+								<div>
+									<h3>Etudiants</h3>
+									<p>Conversez avec nos étudiants</p>
+								</div>
+							</div>
+						</div>
+						<div class="gal-img-container">
+							<img src=".//assets/Imgs/freepik__adjust__9170.png" alt="" loading="lazy"/>
+						</div>
+						<div class="gal-img-container">
+							<img src=".//assets/Imgs/freepik__adjust__25970.png" alt="" loading="lazy"/>
+						</div>
+						<div class="gal-img-container">
+							<img src=".//assets/Imgs/freepik__adjust__9170.png" alt="" loading="lazy"/>
+						</div>
+						<div class="gal-img-container">
+							<img src=".//assets/Imgs/freepik__adjust__25970.png" alt="" loading="lazy"/>
+						</div>
+						<div class="gal-img-container">
+							<img src=".//assets/Imgs/freepik__adjust__9170.png" alt="" loading="lazy"/>
+						</div>
+						<div class="gal-img-container bg-white">
+							<div class="gal-inscription">
+								<h3>Inscription</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- explore -->
+			<section class="explore-section bg-gray">
+				<div class="container">
+					<div class="explore-container">
+						<div class="section-header title-left">
+							<h2 class="section-title">Explorez nos programmes académiques</h2>
+							<div class="div-bar"></div>
+						</div>
+						<div class="explore-desc">
+							<p>
+								Explorez les différents départements et facultés qui offrentune
+								éducation de qualité. Rencontrez notre corps professoral dévoué
+								et nos étudiants talentueux. Rejoignez notre communauté
+								académique diversifiée.
+							</p>
+							<div class="mt-50">
+								<a class="btn btn-link" href="#">Lire plus</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-    <!-- _______________________________________ Facultés-Section ______________________________________ -->
-    <section class="Facultés">
-        <div class="fac-1">
-            <div class="grid-facultes-1">
-                <img src="assets/Imgs/Img-1.jpg" alt="Fac-img" loading="lazy">
-                <h3>Accueil</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam provident quia ut architecto
-                    in
-                    quae. Saepe illo, sunt amet maxime quidem reprehenderit veritatis, voluptatibus dolores aspernatur
-                    aperiam praesentium quae!</p>
-                <a href="#">Lire plus</a>
-            </div>
-            <div class="grid-facultes">
-                <h1>Facultés</h1>
-                <img src="assets/Imgs/Img-2.jpg" alt="Image Fac" loading="lazy">
-            </div>
-        </div>
-        <div class="fac-1">
-            <div class="grid-fac">
-                <div class="hr">
-                    <hr>
-                </div>
-                <h1>Vie étudiante</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsa vero est quos, ex consequuntur iure
-                    molestiae fugit illo et repellat molestias, amet fugiat incidunt aspernatur suscipit! Earum, quas
-                    culpa.</p>
-                <a href="#" class="href">Lire plus</a>
-            </div>
-            <div class="grid-fac">
-                <div class="hr">
-                    <hr>
-                </div>
-                <h1>Vie étudiante</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsa vero est quos, ex consequuntur iure
-                    molestiae fugit illo et repellat molestias, amet fugiat incidunt aspernatur suscipit! Earum, quas
-                    culpa.</p>
-                <a href="#" class="href">Lire plus</a>
-            </div>
-            <div class="grid-fac">
-                <div class="hr">
-                    <hr>
-                </div>
-                <h1>Vie étudiante</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsa vero est quos, ex consequuntur iure
-                    molestiae fugit illo et repellat molestias, amet fugiat incidunt aspernatur suscipit! Earum, quas
-                    culpa.</p>
-                <a href="#" class="href">Lire plus</a>
-            </div>
-            <div class="grid-fac">
-                <div class="hr">
-                    <hr>
-                </div>
-                <h1>Vie étudiante</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsa vero est quos, ex consequuntur iure
-                    molestiae fugit illo et repellat molestias, amet fugiat incidunt aspernatur suscipit! Earum, quas
-                    culpa.</p>
-                <a href="#" class="href">Lire plus</a>
-            </div>
-            <div class="grid-fac">
-                <div class="hr">
-                    <hr>
-                </div>
-                <h1>Vie étudiante</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsa vero est quos, ex consequuntur iure
-                    molestiae fugit illo et repellat molestias, amet fugiat incidunt aspernatur suscipit! Earum, quas
-                    culpa.</p>
-                <a href="#" class="href">Lire plus</a>
-            </div>
-            <div class="grid-fac">
-                <div class="hr">
-                    <hr>
-                </div>
-                <h1>Vie étudiante</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsa vero est quos, ex consequuntur iure
-                    molestiae fugit illo et repellat molestias, amet fugiat incidunt aspernatur suscipit! Earum, quas
-                    culpa.</p>
-                <a href="#" class="href">Lire plus</a>
-            </div>
-        </div>
-    </section>
-    <!-- __________________________________ Fin facultés-Section ________________________________________ -->
-
-
-
-
-    <!-- ____________________________________ Programme _________________________________________ -->
-    <section class="Programmes">
-        <div class="programme-title">
-            <h1>Programmes académiques</h1>
-            <hr class="hr">
-        </div>
-        <div class="detail-programmes">
-            <div class="pro-1">
-                <span>01</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quaerat molestiae distinctio quia.
-                    Recusandae veniam quis optio, saepe tenetur quas officiis numquam nemo eos sed? Aut, obcaecati
-                    officiis! Natus, in?</p>
-            </div>
-            <div class="pro-1">
-                <span>01</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quaerat molestiae distinctio quia.
-                    Recusandae veniam quis optio, saepe tenetur quas officiis numquam nemo eos sed? Aut, obcaecati
-                    officiis! Natus, in?</p>
-            </div>
-            <div class="pro-1">
-                <span>01</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quaerat molestiae distinctio quia.
-                    Recusandae veniam quis optio, saepe tenetur quas officiis numquam nemo eos sed? Aut, obcaecati
-                    officiis! Natus, in?</p>
-            </div>
-        </div>
-
-        <!-- ____________________________________ Gallery _________________________________________ -->
-        <div class="gallery-contenair">
-            <div class="grid-gallery">
-                <img src="assets/Imgs/Img-1.jpg" alt="Image gallery" loading="lazy">
-            </div>
-            <div class="grid-gallery text-gird-1">
-                <h2>Etudiants</h2>
-                <p>Conversez avec nos étudiants.</p>
-            </div>
-            <div class="grid-gallery">
-                <img src="assets/Imgs/Img-1.jpg" alt="Image gallery" loading="lazy">
-            </div>
-            <div class="grid-gallery">
-                <img src="assets/Imgs/Img-1.jpg" alt="Image gallery" loading="lazy">
-            </div>
-            <div class="grid-gallery">
-                <img src="assets/Imgs/Img-1.jpg" alt="Image gallery" loading="lazy">
-            </div>
-            <div class="grid-gallery">
-                <img src="assets/Imgs/Img-1.jpg" alt="Image gallery" loading="lazy">
-            </div>
-            <div class="grid-gallery">
-                <img src="assets/Imgs/Img-1.jpg" alt="Image gallery" loading="lazy">
-            </div>
-            <div class="grid-gallery text-gird">
-                <h2>Inscription</h2>
-            </div>
-        </div>
-        <!-- ____________________________________ Fin gallery _________________________________________ -->
-
-        <div class="programme-title-1">
-            <h1>Explorez nos programmes académiques</h1>
-            <hr class="hr">
-        </div>
-        <div class="programme-detail">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aliquam eos ex deleniti! Eaque delectus
-                placeat eveniet sint culpa perspiciatis sunt ex iure reiciendis, doloribus libero cum similique,
-                sapiente sit!</p>
-            <a href="#">Lire plus</a>
-        </div>
-    </section>
-    <!-- ____________________________________ Fin programme _________________________________________ -->
-
-    <!-- ____________________________________ Exp _________________________________________ -->
-    <section class="Exp">
-        <div class="grid-exp">
-            <div class="exp-title">
-                <h1>Vivez une expérience étudiante enrichissante</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum sapiente tempore, et sequi
-                    distinctio aperiam sint amet asperiores, ab quod vero placeat modi. Natus eaque id provident quos
-                    nobis?</p>
-            </div>
-            <div class="img-exp">
-                <img src="" alt="Image-exp" loading="lazy">
-            </div>
-        </div>
-        <div class="grid-exp">
-            <div class="grid-exp-parts">
-                <div class="grid-exp-parts-1">
-                    <span>Campus</span>
-                    <p>Soutenez nos projets innovants.</p>
-                    <a href="#">Lire plus</a>
-                </div>
-                <div class="grid-exp-parts-2">
-                    <img src="" alt="Img détail" loading="lazy">
-                </div>
-            </div>
-            <div class="grid-exp-parts">
-                <div class="grid-exp-parts-1">
-                    <span>Campus</span>
-                    <p>Soutenez nos projets innovants.</p>
-                    <a href="#">Lire plus</a>
-                </div>
-                <div class="grid-exp-parts-2">
-                    <img src="" alt="Img détail" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ____________________________________ Fin exp _________________________________________ -->
-
-    <!-- ____________________________________ Contacts _________________________________________ -->
-    <section class="contact">
-        <div class="contact-img">
-            <img src="" alt="Image contact" loading="lazy">
-        </div>
-        <div class="contact-detail">
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsam aliquid, suscipit cum maxime nulla,
-                doloribus ullam possimus maiores pariatur labore id mollitia molestiae recusandae voluptates repellendus
-                ducimus aliquam voluptatem.</p>
-            <a href="#">Lire plus</a>
-        </div>
-    </section>
-    <!-- ____________________________________ Fin contacts _________________________________________ -->
-
-
-    <!-- ____________________________________ Actualités _________________________________________ -->
-    <section class="Actualites">
-        <div class="actualites-section">
-            <div class="text">
-                <span>Actualités</span>
-            </div>
-            <div class="grid-img">
-                <div class="back-img">
-                    <img src="" alt="Image dactualités" loading="lazy">
-                </div>
-                <div class="gird-detail">
-                    <span>Titre de publication 1</span>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae unde, aut ducimus officiis
-                        tempore, temporibus harum architecto, consequuntur aperiam odit animi exercitationem. Veniam
-                        dolores natus fuga facere rerum, magnam quisquam.</p>
-                    <a href="#">Lire plus</a>
-                </div>
-            </div>
-            <div class="grid-img">
-                <div class="back-img">
-                    <img src="" alt="Image dactualités" loading="lazy">
-                </div>
-                <div class="gird-detail">
-                    <span>Titre de publication 1</span>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae unde, aut ducimus officiis
-                        tempore, temporibus harum architecto, consequuntur aperiam odit animi exercitationem. Veniam
-                        dolores natus fuga facere rerum, magnam quisquam.</p>
-                    <a href="#">Lire plus</a>
-                </div>
-            </div>
-            <div class="grid-img">
-                <div class="back-img">
-                    <img src="" alt="Image dactualités" loading="lazy">
-                </div>
-                <div class="gird-detail">
-                    <span>Titre de publication 1</span>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae unde, aut ducimus officiis
-                        tempore, temporibus harum architecto, consequuntur aperiam odit animi exercitationem. Veniam
-                        dolores natus fuga facere rerum, magnam quisquam.</p>
-                    <a href="#">Lire plus</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ____________________________________ Fin Actualités _________________________________________ -->
-
-
-    <!-- ____________________________________ Info _________________________________________ -->
-    <section class="info-install">
-        <span>Informations sur nos installations</span>
-        <div class="info">
-            <div class="grid-info">
-                <div class="profil">
-                    <img src="assets/Imgs/jules.png" alt="profil-1" loading="lazy">
-                </div>
-                <div class="grid-detail">
-                    <span>Programmes</span>
-                    <p>Découvrez notre histoire riche.</p>
-                </div>
-            </div>
-            <div class="grid-info">
-                <div class="profil">
-                    <img src="assets/Imgs/jules.png" alt="profil-2" loading="lazy">
-                </div>
-                <div class="grid-detail">
-                    <span>Etudiants</span>
-                    <p>Explorez nos programmes variés.</p>
-                </div>
-            </div>
-            <div class="grid-info">
-                <div class="profil">
-                    <img src="assets/Imgs/jules.png" alt="profil-3" loading="lazy">
-                </div>
-                <div class="grid-detail">
-                    <span>Inscription</span>
-                    <p>Rencontrez nos professeurs dévoués.</p>
-                </div>
-            </div>
-            <div class="grid-info">
-                <div class="profil">
-                    <img src="assets/Imgs/jules.png" alt="profil-4" loading="lazy">
-                </div>
-                <div class="grid-detail">
-                    <span>Campus</span>
-                    <p>Plongez dans notre culture</p>
-                </div>
-            </div>
-            <div class="grid-info">
-                <div class="profil">
-                    <img src="assets/Imgs/jules.png" alt="profil-5" loading="lazy">
-                </div>
-                <div class="grid-detail">
-                    <span>Vie étudiante</span>
-                    <p>Admirez nos installations modernes.</p>
-                </div>
-            </div>
-            <div class="grid-info">
-                <div class="profil">
-                    <img src="assets/Imgs/jules.png" alt="profil-6" loading="lazy">
-                </div>
-                <div class="grid-detail">
-                    <span>Contact</span>
-                    <p>Participez à nos événements.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ____________________________________ Fin Info _________________________________________ -->
-
-
-    <!-- ____________________________________ Footer _________________________________________ -->
-    <footer class="footer">
-        <div class="footer-parts">
-            <div class="part">
-                <span>ESIS - SALAMA</span>
-                <div class="contacts">
-                    <span>Téléphone</span>
-                </div>
-                <div class="contacts">
-                    <span>Adresse</span>
-                </div>
-                <div class="contacts">
-                    <span>Heures de travail</span>
-                </div>
-            </div>
-            <div class="part">
-                <form action="">
-                    <label for="">Email</label>
-                    <input type="email" placeholder="Email">
-                    <label for="">Name</label>
-                    <input type="text" placeholder="Nom">
-                    <label for="">Message</label>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                    <button>Envoyer</button>
-                </form>
-            </div>
-        </div>
-        <p>Copyright &copy; UDBL 2025</p>
-    </footer>
-    <!-- ____________________________________ Fin Footer _________________________________________ -->
-
-
-    <!-- ____________________________________ IonIcon _________________________________________ -->
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-    <!-- ____________________________________ Fin IonIcon _________________________________________ -->
-
-    <script src="assets/js/scritps.js"></script>
-</body>
-
+		<!-- Script -->
+		<script src="./js/script.js"></script>
+	</body>
 </html>
