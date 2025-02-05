@@ -564,20 +564,23 @@ main {
 
 /* experience */
 .contact-section {
-    max-width: 900px;
+    max-width: 1150px;
+	width: 75%;
+	margin: 0 auto;
     display: flex;
 	justify-content: center;
 	align-items: center;
     gap: 50px;
-    align-items: center;
     padding: 25px 15px;
     background: white;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 .contact-section img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+	align-items: center;
 }
 
 .contact-content h2 {
