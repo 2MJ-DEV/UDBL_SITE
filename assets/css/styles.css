@@ -3,12 +3,12 @@
 
 :root {
 	--primary-background-color: #1575ff;
-	--accent-background-color: #ff683d;
+	--accent-background-color: #3d87ff;
 	--background-color: white;
 	--secondary-background-color: #f2f2f2;
 	--text-color: #464649;
 	--primary-text-color: #1575ff;
-	--accent-text-color: #ff683d;
+	--accent-text-color: #3d87ff;
 	--box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
 }
 
@@ -668,6 +668,7 @@ h2 {
     justify-content: space-around;
     align-items: center;
     padding: 50px;
+	background-color: #1f1f20;
 }
 
 .contact-info {
@@ -724,9 +725,14 @@ h2 {
     background-color: #0056b3;
 }
 
+.icon {
+	color: #fff;
+}
+
 footer {
     text-align: center;
+	border: 1px solid white;
     padding: 20px;
     background-color: #111;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
