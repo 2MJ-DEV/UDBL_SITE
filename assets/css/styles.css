@@ -607,16 +607,79 @@ main {
 	justify-content: center;
 	align-items: center;
 	padding: 25px 15px;
-	gap: 20px;
-	margin: 0 auto;
+    gap: 55px;
+    margin: 0 190px;
+}
+
+/* .grid-items {
+    background-image: url("../Imgs/3333.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+} */
+
+.grid-items {
+    /* width: 310px; */
+    /* height: 254px; */
+	position: relative;
+    background-image: url("../Imgs/3333.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border-radius: 10px; */
+    overflow: hidden;
+	min-width: 200px;
+	min-height: 470px;
+}
+
+.actualite-detail {
+	padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.actualite-detail h2 {
+	margin-top: 20px;
+}
+
+.actualite-detail h2 {
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+.actualite-detail a {
+	text-decoration: none;
+}
+
+.actualite-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.actualite-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
 /* Information */
 .installations {
-    max-width: 900px;
-    padding: 40px;
-    text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
 }
 
 h2 {
@@ -631,12 +694,14 @@ h2 {
     width: 100%;
     max-width: 1150px;
     margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 .info-item {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
 }
 
 .info-item img {
