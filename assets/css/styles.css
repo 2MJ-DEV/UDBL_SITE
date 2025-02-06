@@ -22,6 +22,10 @@ body {
 	line-height: 1.7rem;
 }
 
+*{
+	outline: 1px solid;
+}
+
 .margin-t {
 	margin-top: 100px;
 }
@@ -38,7 +42,7 @@ body {
 	padding-bottom: 20px;
 }
 
-.btn {
+.btn-001 {
 	margin-top: 20px;
 	background-color: var(--primary-background-color);
 	color: white;
@@ -157,12 +161,6 @@ li {
 	color: var(--accent-text-color);
 }
 
-.mobile-menu-button {
-	background: none;
-	border: none;
-	cursor: pointer;
-	display: none;
-}
 
 .menu-icon {
 	width: 30px;
@@ -205,8 +203,7 @@ main {
 	height: 100dvh;
 	background: url('../Imgs/hero_1.jpg') left center no-repeat;
 	background-size: cover;
-	background-color: #1575ff;
-	/* background-blend-mode: overlay; */
+	background-blend-mode: overlay;
 }
 
 .hero-overlay {
@@ -599,12 +596,63 @@ main {
 .contact-content p {
 	font-size: 1rem;
 	color: #333;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .contact-content a {
 	text-decoration: none;
 	margin-top: 20px;
+}
+
+.university-container {
+	margin-left: 200px;
+    margin-right: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.right-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.text-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.imge-salle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-space {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-space-on {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	gap: 0;
+}
+
+.right-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
 }
 
 
@@ -831,7 +879,7 @@ textarea {
 	margin-bottom: 20px;
 }
 
-button {
+.button-01 {
 	width: 105%;
 	background-color: #007bff;
 	color: white;
